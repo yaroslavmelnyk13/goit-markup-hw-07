@@ -1,0 +1,31 @@
+.project__top-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.project__top-text {
+    position: absolute;
+    top: 0;
+    color: var(--primary-white-color);
+    background-color: rgba(33, 150, 243, 0.9);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms linear;
+    .project__link:hover &,
+    .project__link:focus & {
+            transform: translateY(0);
+        }
+}
+
+.project-top-text {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+}
+

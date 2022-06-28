@@ -1,0 +1,36 @@
+.jobs {
+    padding-bottom: 94px;
+}
+
+.jobs-title {
+    margin-bottom: 50px;
+}
+
+.jobs__list {
+    display: flex;
+}
+
+.job-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.jobs__item {
+    position: relative;
+}
+
+.jobs__item-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}

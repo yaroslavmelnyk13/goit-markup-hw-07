@@ -1,0 +1,32 @@
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+address {
+    font-style: normal;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    list-style-type: none;
+}
+.list{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+    
+.link{
+    text-decoration: none;
+}
+
+
