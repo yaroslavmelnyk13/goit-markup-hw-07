@@ -1,3 +1,6 @@
+@import"./base/common";
+@import"./base/reset";
+
 @import"./layout/hero";
 @import"./layout/header";
 @import"./layout/singularity";
@@ -7,10 +10,10 @@
 @import"./layout/footer";
 @import"./layout/portfolio";
 @import"./layout/portfolioslidebaner";
-@import"./base/common";
-@import"./base/reset";
+
 @import"./utils/vars";
 @import"./utils/hidden";
+
 @import"./components/title";
 @import"./components/btn";
 @import"./components/modal";

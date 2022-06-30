@@ -1,18 +1,18 @@
-.klients {
+.clients {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.klients-title {
+.clients-title {
     margin-bottom: 50px;
 }
 
-.klients__list {
+.clients__list {
     display: flex;
 
 }
 
-.klients__link {
+.clients__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -30,7 +30,7 @@
     }
 }
 
-.klients-item:not(:last-child) {
+.clients-item:not(:last-child) {
     margin-right: 30px;
 }
 
